@@ -6,7 +6,7 @@ public class Learnlamda {
 		Service s =(String name)->{
 			System.out.println("service............"+name);
 		};
-		s.provideService("Curier");   // https://github.com/PriyankaBarde12/CoreJavaProgram.git
+		s.provideService("Curier");   
 	}
 
 }

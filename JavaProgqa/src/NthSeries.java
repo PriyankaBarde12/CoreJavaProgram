@@ -18,7 +18,7 @@ public class NthSeries
 		}
 		System.out.println();
 		System.out.println("Series sum : "+sum);
-				
+		sc.close();		
 	}
 
 }
