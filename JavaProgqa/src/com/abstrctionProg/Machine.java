@@ -34,10 +34,11 @@ abstract class Mixer extends Machine
 {
 	public void crush()
 	{
-		
+		System.out.println("mixer used for crush");
 	}
 	public void blend()
 	{
+		System.out.println("blend here");
 		
 	}
 }

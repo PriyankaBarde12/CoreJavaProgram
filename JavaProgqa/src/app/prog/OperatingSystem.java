@@ -15,7 +15,6 @@ class Laptop
 	public String getBrand()
 	{
 		return brand;
-		
 	}
 	public void setBrand(String b)
 	{
@@ -23,8 +22,7 @@ class Laptop
 	}
 	public String getOs()
 	{
-		return os;
-		
+		return os;	
 	}
 	public void setOs(String o)
 	{
@@ -32,8 +30,7 @@ class Laptop
 	}
 	public double getCost()
 	{
-		return cost;
-		
+		return cost;	
 	}
 	public void setCost(double c)
 	{
@@ -43,9 +40,12 @@ class Laptop
 	{
 		System.out.println(brand+" , "+os+" , "+cost+" , ");
 	}
-
-
+	public String getString()
+	{
+		return brand;
+	}	
 }
+
 class OperatingSystem  extends Laptop
 {
 	String osName , vendor ;

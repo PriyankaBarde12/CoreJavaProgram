@@ -16,6 +16,8 @@ public class Bike extends Vehicle
 
 	public static void main(String[] args) 
 	{
+		//Vehicle v=new Bike();
+		//v.run("540");
 		Bike bike = new Bike();
 		bike.run("Splender");
 		Vehicle veh = new Vehicle();

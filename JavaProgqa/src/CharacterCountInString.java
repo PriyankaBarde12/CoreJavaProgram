@@ -1,9 +1,12 @@
 
 public class CharacterCountInString {
 
+	public static void show()
+	{
+		
+	}
 	public static void main(String[] args)
 	{
-	
 		String s = "Java is object Oriented programming langauge";
 		char ch='a';
 		int count=0;
@@ -16,7 +19,7 @@ public class CharacterCountInString {
 		}
 		System.out.println(ch+" "+count);
 		
-		
+		show();
 	}
 
 }

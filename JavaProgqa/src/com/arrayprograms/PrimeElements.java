@@ -2,6 +2,10 @@ package com.arrayprograms;
 
 public class PrimeElements {
 
+	public static void showw()
+	{
+		
+	}
 	public static void main(String[] args) {
 		/*for(int i=2;i<20;i++)
 		{
@@ -16,6 +20,7 @@ public class PrimeElements {
 			 }
 				
 		}*/
+		showw();
 		int a[]= {21 ,3 ,5,6,7,8,17,11,24,13};
 		for(int i=0;i<a.length;i++)
 		{

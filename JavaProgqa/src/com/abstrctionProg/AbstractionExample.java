@@ -1,6 +1,8 @@
 package com.abstrctionProg;
 abstract class Shape
 {
+	abstract void showInfo();
+	
 	public void fillColor(String s)
 	{
 		System.out.println("Fill the color "+s);
@@ -13,6 +15,12 @@ abstract class Shape
 	{
 		System.out.println("Geometrical Shape ");
 	}
+
+	@Override
+	void showInfo()
+	{
+		System.out.println("..............");
+	}
 }
 public class AbstractionExample 
 {
@@ -23,3 +31,4 @@ public class AbstractionExample
 		shape.fillColor("PINK");
 	}
 }
+

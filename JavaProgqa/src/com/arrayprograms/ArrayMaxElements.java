@@ -14,15 +14,12 @@ public class ArrayMaxElements
 			}
 		}
 		System.out.println("Max element of Array : " +max);
-	}
-	
+	}	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		ArrayMaxElements arrMax = new ArrayMaxElements();
 		int ar[] = {34,56,2,78,9,67};
 		arrMax.findMax(ar);	
 	}
-
-
-
 }

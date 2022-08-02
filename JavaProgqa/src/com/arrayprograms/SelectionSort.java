@@ -6,19 +6,22 @@ public class SelectionSort
 {
 	public static void selectionSort(int a[])
 	{
+		//int count=0;
 		for(int i=0;i<a.length-1;i++) 
 		{
 			int minIdx=i;
 			for(int j=i+1; j<a.length;j++)
 			{
-				if(a[j]< a[minIdx]) 
+				if(a[j]<a[minIdx]) 
 				{
 					minIdx=j;
+					//count++;
 				}
 			}
 			int temp =a[minIdx];
 			a[minIdx] =a[i];
 			a[i] =temp;
+			//System.out.print(a[i]+" ");	
 		}
 		System.out.print(Arrays.toString(a));	
 	}
@@ -29,5 +32,5 @@ public class SelectionSort
 		int a[] = {34,4,67,2,88};
 		selectionSort(a);
 	}
-
+	
 }

@@ -27,7 +27,6 @@ class Paratha extends Food
 		
 		recipe();
 	}
-
 	public void recipe()
 	{
 		System.out.println("Paratha recipe ");

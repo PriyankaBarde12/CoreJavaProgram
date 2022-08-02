@@ -3,10 +3,11 @@ package com.arrayprograms;
 import java.util.Scanner;
 
 public class MinElements 
-{ 
+{	
 	public static void main(String args[])
 	{
-		 int min, size , i;
+	
+		int min, size , i;
 		 int   arr[] = new int[7];
 	       Scanner sc = new Scanner(System.in);
 	 
@@ -24,10 +25,11 @@ public class MinElements
 	           if(min > arr[i]){
 	               min = arr[i];
 	           }
-	 
+	           
 	       }
+	       
 	    System.out.print("Min Element : " + min);
 	    sc.close();
-	}
+	    }
 
 }

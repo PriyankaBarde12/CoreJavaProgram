@@ -21,6 +21,7 @@ public class InterfaceExtendInterface implements Interface1,Interface3,Interface
 	}
 	public static void main(String[] args) {
 		Interface2 inter = new InterfaceExtendInterface();
+
 		inter.display();
 		inter.show();
 	//	inter.show1(10,3);

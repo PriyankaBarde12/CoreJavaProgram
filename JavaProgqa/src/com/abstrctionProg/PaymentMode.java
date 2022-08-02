@@ -21,4 +21,3 @@ class DebitCard extends PaymentMode
 		System.out.println("Payment through DeditCard ");
 	}
 }
-

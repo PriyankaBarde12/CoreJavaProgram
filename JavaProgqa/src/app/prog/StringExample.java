@@ -27,6 +27,7 @@ public class StringExample
 		  string += 'ing'
 
 		print(string)*/
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
