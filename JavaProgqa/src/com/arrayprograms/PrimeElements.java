@@ -7,7 +7,7 @@ public class PrimeElements {
 		
 	}
 	public static void main(String[] args) {
-		/*for(int i=2;i<20;i++)
+		for(int i=2;i<20;i++)
 		{
 			int count=0;
 			for(int j=2;j<i;j++)
@@ -19,9 +19,9 @@ public class PrimeElements {
 				 System.out.println(i);		
 			 }
 				
-		}*/
+		}
 		showw();
-		int a[]= {21 ,3 ,5,6,7,8,17,11,24,13};
+		/*int a[]= {21 ,3 ,5,6,7,8,17,11,24,13};
 		for(int i=0;i<a.length;i++)
 		{
 			int count = 0;
@@ -33,7 +33,7 @@ public class PrimeElements {
 			
 			if(count == 0)
 				System.out.print(a[i]+" ");
-		}
+		}*/
 
 	}
 

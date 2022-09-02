@@ -2,7 +2,23 @@ package com.progstring;
 
 import java.util.Scanner;
 
-public class CountOccu {
+public class CountOccu 
+{
+	public static void show()
+	{
+		String s="priyankaa";
+		int arr[] =new int[256];
+		for(int i=0;i<s.length();i++)
+		{
+			arr[(int)s.charAt(i)]++;
+			
+		}
+		for(int j=0;j<s.length();j++)
+		{
+			if(arr[j]!=0)
+				System.out.println((char)j+ "-->" +arr[j]);
+		}
+	}
 
 	public static void main(String[] args) 
 	{
@@ -10,25 +26,22 @@ public class CountOccu {
 		int i, len = 0;  
 		int counter[] = new int[256];  
 		Scanner scanner = new Scanner(System.in);  
-		System.out.print("Please enter a string: ");  
-		//reading a string from the user  
+		System.out.print("Please enter a string: ");   
 		str = scanner.nextLine();  
-		//finds the length of the string  
 		len = str.length();  
-		// loop through the string and count frequency of every character and store it in counter array  
 		for (i = 0; i < len; i++)   
 		{  
-		counter[(int) str.charAt(i)]++;  
+				counter[(int) str.charAt(i)]++;  
 		}  
-		//print Frequency of characters  
 		for (i = 0; i < 256; i++)   
 		{  
-		if (counter[i] != 0)   
-		{  
-		//prints frequency of characters      
-		System.out.println((char) i + " --> " + counter[i]);  
-		}  
-		}  
+				if (counter[i] != 0)   
+				{       
+					System.out.println((char) i + " --> " + counter[i]);  
+				}  
+		}
+		show();
+		//CountOccu();
 	}
 
 }

@@ -5,7 +5,6 @@ public class PalidromString
 	
 	public void checkString(String s)
 	{
-	//String s  = "";
 		String rev = "";
 		for(int i =s.length()-1 ;i>=0 ; i--)
 		{

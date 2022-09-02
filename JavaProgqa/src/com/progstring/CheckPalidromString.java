@@ -21,6 +21,7 @@ public class CheckPalidromString
 		else
 			System.out.println("String is not palidrom");
 	}
+	
 	public static void main(String[] args) 
 	{
 		CheckPalidromString  obj = new CheckPalidromString ();

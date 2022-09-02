@@ -4,6 +4,23 @@ import java.util.Scanner;
 
 public class CountSumofDigit 
 {
+	public static void show()
+	{
+		String str="";
+		char ch[]=str.toCharArray();
+		int sum=0;
+		for(int i=0;i<ch.length;i++)
+		{
+			if(Character.isDigit(ch[i]))
+			{
+				System.out.println("digits : "+ch[i]);
+				System.out.println();
+				int n = Integer.parseInt(String.valueOf(ch[i]));
+				sum=sum+n;
+			}
+		}
+		System.out.println(sum);
+	}
 	public static void sumofDigit(String str)
 	{
 		//String str ="java2347ahdg7892";

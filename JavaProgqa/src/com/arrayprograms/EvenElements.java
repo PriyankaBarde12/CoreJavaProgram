@@ -10,7 +10,7 @@ public class EvenElements
 		{
 			if(a[i]%2==1)
 			{
-				System.out.println(a[i]);
+				System.out.print(a[i]+" ");
 			}
 		}
 	}
