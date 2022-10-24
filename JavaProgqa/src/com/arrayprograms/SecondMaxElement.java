@@ -13,7 +13,7 @@ public class SecondMaxElement
 			{
 				secondmax=max;
 				max=a[i];
-				//System.out.println(max);
+				System.out.println(max);
 			}
 			else if(a[i] > secondmax)
 			{
@@ -22,6 +22,20 @@ public class SecondMaxElement
 			}
 			
 		}
+		showMax();
+	}
+	public static void showMax()
+	{
+		int a[] = {45,67,4,78,83,77};
+		int max = a[0];
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]<max)
+			{
+				max=a[i];
+			}
+		}
+				System.out.println(max);
 	}
 
 

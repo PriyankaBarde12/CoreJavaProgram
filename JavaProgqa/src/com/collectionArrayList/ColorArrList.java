@@ -17,7 +17,7 @@ public class ColorArrList
 
 	public static void main(String[] args) 
 	{
-		Collection c = new ArrayList();
+		//Collection c = new ArrayList();
 		c.add("White");
 		c.add("YELLOW");
 		c.add("Red");
@@ -34,7 +34,9 @@ public class ColorArrList
 		c.add("Pink");
 		c.add("A");
 		
-		AddColor(c);
+	for(int i =0;i<)
+		
+	//	AddColor(c);
 
 	}
 

@@ -17,7 +17,7 @@ abstract class Abst2
 		
 	}
 }
-/*class Temp extends Abst1 , Abst2
+/*class Temp extends Abst1 , Abst2 //both are class ... cannot extend multiple classes
 {
-}*/
-
+}
+*/
